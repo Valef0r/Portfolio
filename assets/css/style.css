@@ -643,7 +643,8 @@ section {
   padding: 10px 15px;
 }
 
-.contact .php-email-form button[type="submit"] {
+
+#mailBtn{
   background: #149ddd;
   border: 0;
   padding: 10px 24px;
