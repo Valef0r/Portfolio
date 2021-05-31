@@ -247,7 +247,7 @@ function mailIt() {
   if (sender != "" && email != "" && message != "") {
 
     {
-      parent.location.href = 'mailto:' + admin + '?subject=' + subject + ' ' + '&body=' + "Nombre: " + sender + "%0D%0A" + "Email: " + email + "%0D%0A" + message;
+      parent.location.href = 'mailto:' + admin + '?subject=' + subject + ' ' + '&body=' + "Name: " + sender + "%0D%0A" + "Email: " + email + "%0D%0A" + message;
 
     }
 
